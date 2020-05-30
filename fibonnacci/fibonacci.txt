@@ -1,0 +1,17 @@
+nterms = int(input("How many numbers does the puppy want to see:"))
+n1, n2 = 0, 1
+count = 0
+if nterms <= 0:
+   print("Please tell the puppy to put in a larger number")
+elif nterms == 1:
+   print("Here are some numdbers puppy upto",nterms,":")
+   print(n1)
+else:
+   print("here are a lot of numbers puppy:")
+   while count < nterms:
+       print(n1)
+       nth = n1 + n2
+       # update values
+       n1 = n2
+       n2 = nth
+       count += 1
