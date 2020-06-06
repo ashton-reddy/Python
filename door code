@@ -1,0 +1,6 @@
+print("think of a door code and write it down like you are angry😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡")
+count = 0
+4	while input_num > 0:
+5	    count += 1
+6	    input_num //= 10
+7	print("The number of digits in the given number are:", count)
